@@ -16,9 +16,7 @@ It is a simple PSD to Magento project on a very basic design. This is going to b
     - Must Have Support for Custom Backgrounds
     - Register 2 Custom Widgets in the Theme (About Widget and Social Widget with appropriate options)
     - Must Have a Full-Page (no-sidebar) Template Option
-    - Must Pass Theme-Check - http://wordpress.org/plugins/theme-check/
-
-Some more guidelines - http://codex.wordpress.org/Theme_Review
+    
 
 ## Details
 
