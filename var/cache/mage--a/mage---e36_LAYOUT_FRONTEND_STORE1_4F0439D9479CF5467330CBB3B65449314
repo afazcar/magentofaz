@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530230906;s:6:"expire";i:9999999999;s:4:"tags";s:202:"e36_DEFAULT,e36_CATALOG_CATEGORY_VIEW,e36_CATALOG_CATEGORY_VIEW_TYPE_DEFAULT,e36_CATALOG_CATEGORY_VIEW_TYPE_DEFAULT_WITHOUT_CHILDREN,e36_CATALOG_CATEGORY_VIEW_ID_38,e36_LAYOUT_GENERAL_CACHE_TAG,e36_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530286917;s:6:"expire";i:9999999999;s:4:"tags";s:202:"e36_DEFAULT,e36_CATALOG_CATEGORY_VIEW,e36_CATALOG_CATEGORY_VIEW_TYPE_DEFAULT,e36_CATALOG_CATEGORY_VIEW_TYPE_DEFAULT_WITHOUT_CHILDREN,e36_CATALOG_CATEGORY_VIEW_ID_38,e36_LAYOUT_GENERAL_CACHE_TAG,e36_MAGE";}
 <body>
    <referenceContainer name="header.panel">
       <block class="Magento\Directory\Block\Currency" name="currency" before="store_language" template="Magento_Directory::currency.phtml"/>
@@ -649,6 +649,16 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530230906;s:6:"expire";i:9999999999;s:4:"t
    </referenceContainer>
    <referenceContainer name="after.body.start">
       <block class="Magento\Framework\View\Element\Template" name="ddg.checkout.tag" template="Dotdigitalgroup_Email::email/tracking_code.phtml"/>
+   </referenceContainer>
+</body>
+<head>
+   <css src="Ves_ImageSlider::css/owl.carousel.min.css"/>
+   <css src="Ves_ImageSlider::css/animate.css"/>
+   <css src="Ves_ImageSlider::css/styles.css"/>
+</head>
+<body>
+   <referenceContainer name="before.body.end">
+      <block class="Magento\Framework\View\Element\Template" name="imageslider.js" template="Ves_ImageSlider::js.phtml"/>
    </referenceContainer>
 </body>
 <update handle="default_head_blocks"/>

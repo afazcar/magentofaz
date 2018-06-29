@@ -144,6 +144,9 @@ return [
         'Magento_WishlistSampleData' => 1,
         'Shopial_Facebook' => 1,
         'Temando_Shipping' => 1,
-        'Vertex_Tax' => 1
+        'Vertex_Tax' => 1,
+        'Ves_All' => 1,
+        'Ves_ImageSlider' => 1,
+        'Ves_Setup' => 1
     ]
 ];

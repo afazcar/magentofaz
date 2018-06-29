@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530230247;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e36_LAYOUT_GENERAL_CACHE_TAG,e36_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530286919;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e36_LAYOUT_GENERAL_CACHE_TAG,e36_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="admin_login" layout="admin-login"><update handle="styles"/>
 <body>
@@ -8041,6 +8041,27 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530230247;s:6:"expire";i:9999999999;s:4:"t
    <block class="Magento\Framework\View\Element\Messages" name="messages" as="messages" ifconfig="tax/vertex_settings/enable_vertex" template="Vertex_Tax::order/view/messages.phtml"/>
 </referenceContainer>
 </layout><handle id="default"><head>
+   <css src="Ves_All::css/styles.css"/>
+</head>
+</handle><handle id="default"><head>
+   <css src="Ves_ImageSlider::css/styles.css"/>
+</head>
+<body>
+   <referenceContainer name="js">
+      <block class="Magento\Framework\View\Element\Template" template="Ves_ImageSlider::wysiwyg/js.phtml" name="imageslider.wysiwyg.js"/>
+   </referenceContainer>
+</body>
+</handle><handle id="vessetup_export_index" layout="admin-1column"><body>
+   <referenceContainer name="content">
+      <block class="Ves\Setup\Block\Adminhtml\Export\Edit" name="ves.setup.export"/>
+   </referenceContainer>
+</body>
+</handle><handle id="vessetup_import_index" layout="admin-1column"><body>
+   <referenceContainer name="content">
+      <block class="Ves\Setup\Block\Adminhtml\Import\Edit" name="ves.setup.import"/>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><head>
    <css src="jquery/jstree/themes/default/style.css"/>
    <css src="css/styles-old.css"/>
    <css src="css/styles.css"/>

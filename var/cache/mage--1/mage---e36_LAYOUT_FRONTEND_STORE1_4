@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530230251;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e36_LAYOUT_GENERAL_CACHE_TAG,e36_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530286917;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e36_LAYOUT_GENERAL_CACHE_TAG,e36_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6465,6 +6465,19 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1530230251;s:6:"expire";i:9999999999;s:4:"t
 </handle><handle id="checkout_index_index"><body>
    <referenceContainer name="before.body.end">
       <block class="Magento\Framework\View\Element\Template" ifconfig="tax/vertex_settings/enable_vertex" name="checkout.message.manager" template="Vertex_Tax::checkout/message-manager.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="checkout_index_index"><body>
+   <referenceBlock name="imageslider.js" remove="true"/>
+</body>
+</handle><handle id="default"><head>
+   <css src="Ves_ImageSlider::css/owl.carousel.min.css"/>
+   <css src="Ves_ImageSlider::css/animate.css"/>
+   <css src="Ves_ImageSlider::css/styles.css"/>
+</head>
+<body>
+   <referenceContainer name="before.body.end">
+      <block class="Magento\Framework\View\Element\Template" name="imageslider.js" template="Ves_ImageSlider::js.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="default_head_blocks"><head>

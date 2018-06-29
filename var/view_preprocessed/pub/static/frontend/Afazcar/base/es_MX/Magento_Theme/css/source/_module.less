@@ -49,7 +49,7 @@
 & when (@media-common = true) {
 
     body {
-        background: #000;
+        background: @color-gray2;
     }
 
     //
@@ -158,6 +158,29 @@
     .page-footer {
         .lib-css(background-color, @footer__background-color);
         margin-top: auto;
+        text-align: center;
+        padding: 25px 10px;
+        .block.newsletter{
+            margin: auto;
+        }
+        .footer-main{
+            > ul{
+                list-style: none;
+                li{
+                    display: inline-block !important;
+                    clear: both;
+                    margin: 30px 10px 0 10px;
+                    .lib-icon-font(
+                    @_icon-font-content: @icon-menu,
+                    @_icon-font-size: 15px,
+                    @_icon-font-line-height: 15px,
+                    @_icon-font-position: after);
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 
     .footer {
@@ -185,7 +208,7 @@
         .copyright,
         .bugs {
             display: block;
-            margin: 20px 0 0;
+            margin: 35px 0 0;
         }
     }
 
