@@ -33,3 +33,6 @@
 [2018-06-28 22:01:21] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
 [2018-06-28 22:07:39] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
 [2018-06-28 22:10:24] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-06-28 23:50:01] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://test.test/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-06-28 23:52:16] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-06-28 23:52:56] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []

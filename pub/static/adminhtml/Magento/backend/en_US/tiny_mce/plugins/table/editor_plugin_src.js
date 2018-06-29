@@ -1,0 +1,1 @@
+/Library/WebServer/Documents/Magento/lib/web/tiny_mce/plugins/table/editor_plugin_src.js
